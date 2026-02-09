@@ -1,4 +1,4 @@
-baseURL: "https://adilsonmenechini.github.io/adilsonmenechini/"
+baseURL: "https://adilsonmenechini.github.io/v1/"
 languageCode: "en"
 title: "Adilson Menechini - SRE & Cloud Engineer"
 
@@ -34,7 +34,7 @@ languages:
         title: "Adilson Menechini."
         subtitle: "SRE & Cloud Engineer | AI Enthusiast"
         content: "With over 15 years of experience in IT, I'm a Senior Site Reliability Engineer passionate about building resilient, scalable, and high-performance cloud infrastructures. Always curious and constantly learning, I embrace new challenges and technologies to deliver the best solutions."
-        image: "/images/me.png"
+        image: "images/me.png"
         button:
           enable: true
           name: "Resume"
@@ -66,7 +66,7 @@ languages:
       about:
         enable: true
         title: "About Me"
-        image: "/images/me.png"
+        image: "images/me.png"
         content: |-
           I'm a **Senior Site Reliability Engineer (SRE)** with over 15 years of experience in IT. I specialize in building resilient, scalable, and high-performance cloud infrastructures using modern DevOps and SRE practices.
 
@@ -124,7 +124,7 @@ languages:
         title: "Adilson Menechini."
         subtitle: "Engenheiro SRE & Cloud | Entusiasta de AI"
         content: "Com mais de 15 anos de experiência em TI, sou um Engenheiro SRE apaixonado por construir infraestruturas cloud resilientes e escaláveis."
-        image: "/images/me.png"
+        image: "images/me.png"
         button:
           enable: true
           name: "Currículo"
@@ -138,7 +138,7 @@ languages:
       about:
         enable: true
         title: "Sobre Mim"
-        image: "/images/me.png"
+        image: "images/me.png"
         content: |-
           Sou um **Engenheiro Site Reliability Engineer (SRE)** com mais de 15 anos de experiência em TI. Especializo-me em construir infraestruturas cloud resilientes, escaláveis e de alto desempenho.
 
