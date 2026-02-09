@@ -66,7 +66,7 @@ languages:
       about:
         enable: true
         title: "About Me"
-        image: "static/images/me.png"
+        image: "/images/me.png"
         content: |-
           I'm a **Senior Site Reliability Engineer (SRE)** with over 15 years of experience in IT. I specialize in building resilient, scalable, and high-performance cloud infrastructures using modern DevOps and SRE practices.
 
@@ -124,7 +124,7 @@ languages:
         title: "Adilson Menechini."
         subtitle: "Engenheiro SRE & Cloud | Entusiasta de AI"
         content: "Com mais de 15 anos de experiência em TI, sou um Engenheiro SRE apaixonado por construir infraestruturas cloud resilientes e escaláveis."
-        image: "static/images/me.png"
+        image: "/images/me.png"
         button:
           enable: true
           name: "Currículo"
