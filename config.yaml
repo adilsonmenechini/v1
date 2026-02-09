@@ -183,7 +183,7 @@ markup:
 params:
   title: "Adilson Menechini"
   description: "Senior Site Reliability Engineer (SRE) - Cloud Infrastructure & DevOps"
-  favicon: "/fav.png"
+  favicon: "images/fav.png"
   useBootstrapCDN: false
   mathjax: false
   animate: true
