@@ -1,0 +1,28 @@
+{{- if .Site.Params.aiJourney.enable | default true -}}
+<section id="ai-journey" class="py-5">
+    <div class="container">
+        <h3 class="text-center">{{ .Site.Params.aiJourney.title | default "Jornada de AI" }}</h3>
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <p class="text-center">{{ .Site.Params.aiJourney.description | default "Explorando o universo da Inteligência Artificial" }}</p>
+                
+                {{- if .Site.Params.aiJourney.badges -}}
+                <div class="d-flex flex-wrap justify-content-center gap-2 mt-4">
+                    {{- range .Site.Params.aiJourney.badges -}}
+                    <span class="badge bg-primary">{{ . }}</span>
+                    {{- end -}}
+                </div>
+                {{- end -}}
+                
+                {{- if .Site.Params.aiJourney.items -}}
+                <ul class="mt-4">
+                    {{- range .Site.Params.aiJourney.items -}}
+                    <li>{{ . }}</li>
+                    {{- end -}}
+                </ul>
+                {{- end -}}
+            </div>
+        </div>
+    </div>
+</section>
+{{- end -}}

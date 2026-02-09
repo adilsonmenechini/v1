@@ -1,0 +1,210 @@
+baseURL: "https://adilsonmenechini.com"
+languageCode: "en"
+title: "Adilson Menechini - SRE & Cloud Engineer"
+
+defaultContentLanguage: "en"
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    contentDir: "content"
+    menu:
+      main:
+        - identifier: home
+          name: "Home"
+          url: /
+          weight: 1
+        - identifier: about
+          name: "About"
+          url: /about
+          weight: 2
+        - identifier: blog
+          name: "Blog"
+          url: /blogs
+          weight: 3
+        - identifier: gallery
+          name: "Gallery"
+          url: /gallery
+          weight: 4
+    params:
+      hero:
+        enable: true
+        intro: "Hi, my name is"
+        title: "Adilson Menechini."
+        subtitle: "SRE & Cloud Engineer | AI Enthusiast"
+        content: "With over 15 years of experience in IT, I'm a Senior Site Reliability Engineer passionate about building resilient, scalable, and high-performance cloud infrastructures. Always curious and constantly learning, I embrace new challenges and technologies to deliver the best solutions."
+        image: "/images/me.png"
+        button:
+          enable: true
+          name: "Resume"
+          url: "#"
+      socialLinks:
+        fontAwesomeIcons:
+          - icon: fab fa-github
+            url: https://github.com/adilsonmenechini
+          - icon: fab fa-linkedin
+            url: https://linkedin.com/in/adilson-menechini
+      aiJourney:
+        enable: true
+        title: "🚀 AI Study Journey"
+        description: "Exploring the Artificial Intelligence universe"
+        badges:
+          - "LangChain"
+          - "LangGraph"
+          - "CrewAI"
+          - "RAG"
+          - "Memory"
+          - "MCP"
+        items:
+          - "Agentic AI: Building autonomous agents"
+          - "LLM Orchestration: LangChain & LangGraph"
+          - "Multi-Agent Systems: CrewAI"
+          - "RAG: Enhancing LLM responses"
+          - "Memory: Persistent agent memory"
+          - "MCP: Model Context Protocol"
+      about:
+        enable: true
+        title: "About Me"
+      experience:
+        enable: true
+        title: "Experience"
+      contact:
+        enable: true
+        content: "Feel free to reach out!"
+      footer:
+        recentPosts:
+          title: "Recent Posts"
+  pt-br:
+    languageName: "Português (Brasil)"
+    weight: 2
+    contentDir: "content/pt-br"
+    menu:
+      main:
+        - identifier: home
+          name: "Home"
+          url: /pt-br/
+          weight: 1
+        - identifier: about
+          name: "Sobre"
+          url: /pt-br/about
+          weight: 2
+        - identifier: blog
+          name: "Blog"
+          url: /pt-br/blogs
+          weight: 3
+        - identifier: gallery
+          name: "Galeria"
+          url: /pt-br/gallery
+          weight: 4
+    params:
+      hero:
+        enable: true
+        intro: "Olá, meu nome é"
+        title: "Adilson Menechini."
+        subtitle: "Engenheiro SRE & Cloud | Entusiasta de AI"
+        content: "Com mais de 15 anos de experiência em TI, sou um Engenheiro Site Reliability Engineer (SRE) sênior apaixonado por construir infraestruturas cloud resilientes, escaláveis e de alto desempenho. Sempre curioso e em constante busca por conhecimento, abraço novos desafios e tecnologias para entregar as melhores soluções."
+        image: "/images/me.png"
+        button:
+          enable: true
+          name: "Currículo"
+          url: "#"
+      socialLinks:
+        fontAwesomeIcons:
+          - icon: fab fa-github
+            url: https://github.com/adilsonmenechini
+          - icon: fab fa-linkedin
+            url: https://linkedin.com/in/adilson-menechini
+      aiJourney:
+        enable: true
+        title: "🚀 AI Study Journey"
+        description: "Explorando o universo da Inteligência Artificial"
+        badges:
+          - "LangChain"
+          - "LangGraph"
+          - "CrewAI"
+          - "RAG"
+          - "Memory"
+          - "MCP"
+        items:
+          - "Agentic AI: Building autonomous agents"
+          - "LLM Orchestration: LangChain & LangGraph"
+          - "Multi-Agent Systems: CrewAI"
+          - "RAG: Enhancing LLM responses"
+          - "Memory: Persistent agent memory"
+          - "MCP: Model Context Protocol"
+      about:
+        enable: true
+        title: "Sobre Mim"
+      experience:
+        enable: true
+        title: "Experiência"
+      contact:
+        enable: true
+        content: "Sinta-se à vontade para entrar em contato!"
+      footer:
+        recentPosts:
+          title: "Posts Recentes"
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  title: "Adilson Menechini"
+  description: "Senior Site Reliability Engineer (SRE) - Cloud Infrastructure & DevOps"
+  favicon: "/fav.png"
+  useBootstrapCDN: false
+  mathjax: false
+  animate: true
+  theme:
+    disableThemeToggle: false
+    defaultTheme: "dark"
+  font:
+    fontSize: 1rem
+    fontWeight: 400
+    lineHeight: 1.5
+    textAlign: left
+
+  experience:
+    items:
+      - company: "Current Company"
+        companyUrl: "https://linkedin.com/in/adilson-menechini"
+        jobs:
+          - name: "Senior SRE Engineer"
+            date: "2020 - Present"
+            content: "Leading SRE initiatives for complex cloud infrastructure."
+
+  contact:
+    btnName: "LinkedIn"
+    btnLink: "https://linkedin.com/in/adilson-menechini"
+
+  footer:
+    socialNetworks:
+      github: https://github.com/adilsonmenechini
+      linkedin: https://linkedin.com/in/adilson-menechini
+
+  singlePages:
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: false
+
+  datesFormat:
+    article: "Jan 2, 2006"

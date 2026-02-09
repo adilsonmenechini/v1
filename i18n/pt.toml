@@ -1,0 +1,104 @@
+[home]
+other = "Início"
+
+[about]
+other = "Sobre Mim"
+
+[experience]
+other = "Experiência"
+
+[education]
+other = "Educação"
+
+[contact]
+other = "Contato"
+
+[posts]
+other = "Posts"
+
+[projects]
+other = "Projetos"
+
+[achievements]
+other = "Conquistas"
+
+[gallery]
+other = "Galeria"
+
+[recentPosts]
+other = "Posts Recentes"
+
+[mail_me]
+other = "Me mande um e-mail"
+
+[contact_me]
+other = "Entre em contato"
+
+[read]
+other = "Ler"
+
+[toc]
+other = "Índice"
+
+[copyright]
+other = "Todos os direitos reservados"
+
+[emailText]
+other = "Confira este site"
+
+[contact_email_placeholder]
+other = "Seu endereço de e-mail"
+
+[contact_message_placeholder]
+other = "Digite sua mensagem aqui"
+
+[search]
+other = "Buscar"
+
+[search_result]
+other = "Resultado da busca"
+
+[search_no_result]
+other = "Nenhum resultado encontrado"
+
+[search_result_count]
+other = "resultados encontrados"
+
+[scrollProgressBar]
+other = "Progresso da página"
+
+[readingTime]
+other = "min de leitura"
+
+[tags]
+other = "Tags"
+
+[posts_by_tag]
+other = "Posts por tag"
+
+[all_tags]
+other = "Todas as tags"
+
+[back_to_top]
+other = "Voltar ao topo"
+
+[page_not_found]
+other = "Página não encontrada"
+
+[search_placeholder]
+other = "Buscar..."
+
+[nav_about]
+other = "Sobre"
+
+[nav_experience]
+other = "Experiência"
+
+[nav_contact]
+other = "Contato"
+
+[min_read]
+other = "min de leitura"
+
+[social]
+other = "Social"

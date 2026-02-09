@@ -1,0 +1,23 @@
+# Generated files by Hugo
+/public/
+/resources/_gen/
+.sass-cache/
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Netlify
+.netlify/state.json
