@@ -66,6 +66,29 @@ languages:
       about:
         enable: true
         title: "About Me"
+        image: "/images/me.png"
+        content: |-
+          I'm a **Senior Site Reliability Engineer (SRE)** with over 15 years of experience in IT. I specialize in building resilient, scalable, and high-performance cloud infrastructures using modern DevOps and SRE practices.
+
+          Passionate about automation, observability, and ensuring systems remain available under any condition. Constantly exploring AI/ML technologies to enhance infrastructure intelligence.
+
+          Currently focused on **Agentic AI**, **LLM Orchestration**, and building autonomous systems that can self-heal and self-scale.
+        skills:
+          enable: true
+          title: "Tech Stack:"
+          items:
+            - "Python"
+            - "Golang"
+            - "Kubernetes"
+            - "Terraform"
+            - "AWS"
+            - "Azure"
+            - "Docker"
+            - "Prometheus"
+            - "Grafana"
+            - "Datadog"
+            - "GitHub Actions"
+            - "ArgoCD"
       experience:
         enable: true
         title: "Experience"
@@ -136,6 +159,29 @@ languages:
       about:
         enable: true
         title: "Sobre Mim"
+        image: "/images/me.png"
+        content: |-
+          Sou um **Engenheiro Site Reliability Engineer (SRE)** com mais de 15 anos de experiência em TI. Especializo-me em construir infraestruturas cloud resilientes, escaláveis e de alto desempenho usando práticas modernas de DevOps e SRE.
+
+          Apaixonado por automação, observabilidade e garantindo que sistemas permaneçam disponíveis sob qualquer condição. Constantemente explorando tecnologias de IA/ML para aprimorar a inteligência da infraestrutura.
+
+          Atualmente focado em **Agentic AI**, **Orquestração de LLMs** e construção de sistemas autônomos que podem se auto-curar e escalar.
+        skills:
+          enable: true
+          title: "Stack Tecnológica:"
+          items:
+            - "Python"
+            - "Golang"
+            - "Kubernetes"
+            - "Terraform"
+            - "AWS"
+            - "Azure"
+            - "Docker"
+            - "Prometheus"
+            - "Grafana"
+            - "Datadog"
+            - "GitHub Actions"
+            - "ArgoCD"
       experience:
         enable: true
         title: "Experiência"
