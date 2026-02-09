@@ -33,7 +33,8 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'extended_*'
+          hugo-version: '0.139.2'
+          extended: true
 
       - name: Build with Hugo
         env:
