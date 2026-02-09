@@ -1,43 +1,43 @@
 ---
-title: "Terraform vs Pulumi: Qual Escolher?"
+title: "Terraform vs Pulumi: Which to Choose?"
 date: 2024-02-01
-description: "Comparando ferramentas de Infraestrutura como Código"
+description: "Comparing Infrastructure as Code tools"
 tags: ["terraform", "pulumi", "iac"]
 ---
 
 # Terraform vs Pulumi
 
-Ambas são ótimas ferramentas de Infraestrutura como Código. Vamos comparar.
+Both are great Infrastructure as Code tools. Let's compare them.
 
 ## Terraform
 
-**Vantagens:**
-- Sintaxe declarativa em HCL
-- Grande ecossistema de providers
-- Madura e testada em produção
-- Gerenciamento de estado incluso
+**Pros:**
+- Declarative HCL syntax
+- Large ecosystem and providers
+- Mature and battle-tested
+- State management included
 
-**Desvantagens:**
-- Curva de aprendizado do HCL
-- Lógica limitada nas configurações
+**Cons:**
+- HCL learning curve
+- Limited logic in configurations
 
 ## Pulumi
 
-**Vantagens:**
-- Usa linguagens de programação reais (Python, Go, TypeScript)
-- Mais flexibilidade e lógica
-- Melhor suporte de IDE
+**Pros:**
+- Use real programming languages (Python, Go, TypeScript)
+- More flexibility and logic
+- Better IDE support
 
-**Desvantagens:**
-- Requer conhecimento em programação
-- Ecossistema menor
+**Cons:**
+- Requires programming knowledge
+- Smaller ecosystem
 
-## Minha Recomendação
+## My Recommendation
 
-**Terraform** para equipes que querem simplicidade e infraestrutura declarativa.
+**Terraform** for teams that want simplicity and declarative infrastructure.
 
-**Pulumi** para equipes que precisam de lógica complexa e preferem linguagens de programação.
+**Pulumi** for teams that need complex logic and prefer programming languages.
 
-## Considerações Finais
+## Final Thoughts
 
-Escolha baseada nas habilidades da sua equipe e requisitos.
+Choose based on your team's skills and requirements.

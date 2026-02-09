@@ -1,18 +1,18 @@
 ---
-title: "Introdução ao SRE"
+title: "Introduction to SRE"
 date: 2024-01-15
-description: "Princípios fundamentais do Site Reliability Engineering"
+description: "Fundamental principles of Site Reliability Engineering"
 tags: ["sre", "devops", "cloud"]
 ---
 
-# O que é SRE?
+# What is SRE?
 
-Site Reliability Engineering (SRE) é uma disciplina que combina operações de TI e engenharia de software.
+Site Reliability Engineering (SRE) is a discipline that combines IT operations and software engineering.
 
-## Princípios
+## Principles
 
-1. **Confiabilidade** - Sistemas disponíveis para usuários
-2. **Automação** - Reduzir tarefas manuais
-3. **Observabilidade** - Métricas, logs e traces
+1. **Reliability** - Systems available for users
+2. **Automation** - Reduce manual tasks
+3. **Observability** - Metrics, logs, and traces
 
-SRE ajuda a equilibrar velocidade de desenvolvimento com confiabilidade.
+SRE helps balance development speed with reliability.

@@ -95,6 +95,72 @@ languages:
       contact:
         enable: true
         content: "Feel free to reach out!"
+  pt-br:
+    languageName: "Português (Brasil)"
+    weight: 2
+    contentDir: "content/pt-br"
+    menu:
+      main:
+        - identifier: home
+          name: "Home"
+          url: /pt-br/
+          weight: 1
+        - identifier: about
+          name: "About"
+          url: /pt-br/about
+          weight: 2
+        - identifier: blog
+          name: "Blog"
+          url: /pt-br/blogs
+          weight: 3
+        - identifier: gallery
+          name: "Gallery"
+          url: /pt-br/gallery
+          weight: 4
+    params:
+      hero:
+        enable: true
+        intro: "Olá, meu nome é"
+        title: "Adilson Menechini."
+        subtitle: "Engenheiro SRE & Cloud | Entusiasta de AI"
+        content: "Com mais de 15 anos de experiência em TI, sou um Engenheiro SRE apaixonado por construir infraestruturas cloud resilientes e escaláveis."
+        image: "/images/me.png"
+        button:
+          enable: true
+          name: "Currículo"
+          url: "#"
+      socialLinks:
+        fontAwesomeIcons:
+          - icon: fab fa-github
+            url: https://github.com/adilsonmenechini
+          - icon: fab fa-linkedin
+            url: https://linkedin.com/in/adilson-menechini
+      about:
+        enable: true
+        title: "Sobre Mim"
+        image: "/images/me.png"
+        content: |-
+          Sou um **Engenheiro Site Reliability Engineer (SRE)** com mais de 15 anos de experiência em TI. Especializo-me em construir infraestruturas cloud resilientes, escaláveis e de alto desempenho.
+
+          Apaixonado por automação, observabilidade e garantindo que sistemas permaneçam disponíveis sob qualquer condição.
+        skills:
+          enable: true
+          title: "Tech Stack:"
+          items:
+            - "Python"
+            - "Golang"
+            - "Kubernetes"
+            - "Terraform"
+            - "AWS"
+            - "Azure"
+            - "Docker"
+            - "Prometheus"
+      experience:
+        enable: true
+        title: "Experiência"
+      contact:
+        enable: true
+        content: "Sinta-se à vontade para entrar em contato!"
 outputs:
   home:
     - "HTML"

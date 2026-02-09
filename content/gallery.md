@@ -1,6 +1,6 @@
 ---
-title: "Galeria"
+title: "Gallery"
 tags: []
 ---
 
-Em breve...
+Coming soon...
